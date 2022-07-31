@@ -25,5 +25,7 @@ input.send_keys('be good do good') #change text to your required line
 
 input=driver.find_element_by_xpath('/html/body/div[1]/div[4]/div/div/div/footer/div/div[1]/button/span').click()
 
-time.sleep(10)
+time.sleep(13)
+
+driver.close()
 
